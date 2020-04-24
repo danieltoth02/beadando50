@@ -14,5 +14,3 @@ while True:
     if sebesseg>m:
         sebesseg_lista.append(sebesseg)
         rendszam_lista.append(ir2[6])
-for i in range (len(rendszam_lista)):
-    print (rendszam_lista[i],str(f'{sebesseg_lista[i]:.2f}')+"km/h")
